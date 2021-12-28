@@ -1,5 +1,5 @@
 import styles from "../styles/About.module.css";
-import Image from 'next/image';
+import Image from "next/image";
 
 const About = () => {
     return(
@@ -20,7 +20,7 @@ const About = () => {
                 </div>
                 <div className={styles.about}>
                     <h2>Front End Engineer | Full-Stack Engineer</h2>
-                    <p>I'm Jordanian based in Amman, Computer Science Graduated from University of Jordan with GPA Very Good.</p><p> I'm interested in web development, specially the front end field.</p>
+                    <p>I am Jordanian based in Amman, Computer Science Graduated from University of Jordan with GPA Very Good.</p><p> I am interested in web development, specially the front end field.</p>
                     <p>- Specialist on converting creative designs into a real website with modern CSS and Clear UI and good UX.</p>
                     <p>- Working with Modern FE technologies Angular 2+ Developer | TypeScript | ReactJS | VueJS | NuxtJs | Tailwind CSS | NodeJS | REST API’s</p>
                     <p>- A passionate full-stack developer that always seek to learn. Worked as Backend developer on PHP | Yii2 | WordPress | C# | .Net | Umbraco | Magento with E-commerce and Logistics background.</p>
