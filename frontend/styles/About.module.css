@@ -1,0 +1,46 @@
+.aboutContainer {
+    height: 100vh;
+    padding: 0 1rem;
+    background: #eff1f2;
+    overflow: initial;
+    display: flex;
+    align-items: center;
+}
+.aboutContainer p {
+    color: #292833;
+    font-size: 15px;
+    font-family: 'Comic Neue', cursive;
+}
+.aboutContainer span {
+    overflow: initial !important;
+}
+.aboutContainer h2 {
+    font-size: 2rem;
+    background: linear-gradient(180deg,#c4004e,#ff096c,#ff096c,#c4004e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.aboutContainer img {
+    filter: brightness(0.75);
+    transform: scale(0.75);
+}
+@media (min-width:1025px) {
+    .aboutContainer .about {
+        width: 80%;
+        padding-left: 3rem;
+    }
+    .dFlex {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-width:1025px) {
+    .aboutContainer h2 {
+        font-size: 2rem;
+    }
+    .aboutContainer img {
+        display: none !important;
+    }
+}
