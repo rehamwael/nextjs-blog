@@ -17,7 +17,7 @@ interface PostJsonResponse {
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const response = await axios.get("http://localhost:1337/api/posts", {
+  const response = await axios.get("https://aqueous-brook-44756.herokuapp.com/api/posts", {
     headers: {
       Accept: "application/json",
     },

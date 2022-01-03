@@ -7,7 +7,7 @@ export type PostDetailViewProps = {
 };
 
 export const getStaticPaths: GetStaticPaths = async () => {
-    const response = await axios.get("http://localhost:1337/api/posts");
+    const response = await axios.get("https://aqueous-brook-44756.herokuapp.com/api/posts");
     const posts: Post[] = await response.data.data;
   
     const paths = posts.map((post) => {
