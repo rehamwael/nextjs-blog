@@ -22,7 +22,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
     };
   };
 export async function getStaticProps({ params }) {
-    const { data } = await axios.get(`http://localhost:1337/api/posts/${params.id}`);
+    const { data } = await axios.get(`https://aqueous-brook-44756.herokuapp.com/api/posts/${params.id}`);
 
     return {
         props: {
