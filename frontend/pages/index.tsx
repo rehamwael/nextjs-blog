@@ -6,9 +6,9 @@ import Contact from "../components/Contact";
 const IndexView = () => {
   return (
     <>
-    <Header />
-    <About />
-    <Contact />
+      <Header />
+      <About />
+      <Contact />
     </>
   );
 };

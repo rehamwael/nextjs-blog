@@ -19,7 +19,7 @@ const About = () => {
                 />
                 </div>
                 <div className={styles.about}>
-                    <h2>Front End Engineer | Full-Stack Engineer</h2>
+                    <h2>Front End Engineer | Full-Stack Developer</h2>
                     <p>I am Jordanian based in Amman, Computer Science Graduated from University of Jordan with GPA Very Good.</p><p> I am interested in web development, specially the front end field.</p>
                     <p>- Specialist on converting creative designs into a real website with modern CSS and Clear UI and good UX.</p>
                     <p>- Working with Modern FE technologies Angular 2+ Developer | TypeScript | ReactJS | VueJS | NuxtJs | Tailwind CSS | NodeJS | REST API’s</p>

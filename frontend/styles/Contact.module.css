@@ -16,3 +16,9 @@
     color: #fff;
     font-family: 'Comic Neue', cursive;
 }
+
+@media (max-width:1025px) {
+    .contactContainer {
+        padding: 0 2rem;
+    }
+}
