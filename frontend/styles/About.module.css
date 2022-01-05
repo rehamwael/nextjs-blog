@@ -1,6 +1,6 @@
 .aboutContainer {
     height: 100vh;
-    padding: 0 1rem;
+    padding: 0 5rem 0 1rem;
     background: #eff1f2;
     overflow: initial;
     display: flex;
@@ -21,6 +21,28 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.svgIcon {
+    transform: scale(0.75);
+}
+.svgIcon path{
+  fill:none;
+  stroke: #292833;
+  stroke-width: 1px;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: 6s text-outline  infinite forwards;
+}
+
+@keyframes text-outline{
+  from{
+    stroke-dashoffset: 1000;
+    opacity: 0;
+  }
+  to{
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+}
 .aboutContainer img {
     filter: brightness(0.75);
     transform: scale(0.75);
@@ -40,7 +62,10 @@
     .aboutContainer h2 {
         font-size: 2rem;
     }
-    .aboutContainer img {
+    .aboutContainer img , .svgIcon {
         display: none !important;
+    }
+    .aboutContainer {
+        padding: 0 20px;
     }
 }

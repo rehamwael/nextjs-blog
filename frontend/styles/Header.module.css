@@ -122,8 +122,8 @@
 @media (max-width: 992px){
     .mainHeader h1 {
         position: absolute;
-        top: 40%;
-        left: 55%;
+        top: 37%;
+        left: 50%;
         transform: translate(-50%, -50%);
         font-size: 9rem;
     }
@@ -138,6 +138,9 @@
         transform: translate(-50%, -50%);
         left: 53%;
         width: 70%;
+    }
+    .navLeft {
+        z-index: 99999;
     }
     .infoLeft {
         margin: 2vh;
