@@ -8,6 +8,8 @@ const IndexView = () => {
     <>
       <Head>
         <title>Reham Habbas</title>
+        <meta name="description" content="Reham Habbas - Front-End Engineer" />
+        <meta name="keywords" content="Reham Habbas, Front-End Engineer, UI Developer" />
       </Head>
       <Header />
       <About />
