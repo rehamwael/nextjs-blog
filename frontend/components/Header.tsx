@@ -10,7 +10,7 @@ const Header = () => {
             <ul className={styles.navLeft}>
                 <li><a href="#About">About</a></li>
                 <li><a href="#Contact">Contact</a></li>
-                {/* <li><Link href="/blog">Blog</Link></li> */}
+                <li><Link href="/blog">Blog</Link></li>
             </ul>
         </nav>
         {/* <ul className={styles.infoLeft}>
